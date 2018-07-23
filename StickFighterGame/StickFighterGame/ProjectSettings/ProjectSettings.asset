@@ -530,12 +530,16 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLLinkerTarget: 0
+<<<<<<< HEAD:StickFighterGame/ProjectSettings/ProjectSettings.asset
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
     4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
     14: MOBILE_INPUT
     17: MOBILE_INPUT
+=======
+  scriptingDefineSymbols: {}
+>>>>>>> 7162047fda8e3d9a0cca7a90337c4ff5bc2d3e0e:StickFighterGame/StickFighterGame/ProjectSettings/ProjectSettings.asset
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
