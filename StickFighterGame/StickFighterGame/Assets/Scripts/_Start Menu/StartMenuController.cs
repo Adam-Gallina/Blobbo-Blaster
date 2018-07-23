@@ -11,7 +11,7 @@ public class StartMenuController : MonoBehaviour {
     //Start Menu
 	public void StartPressed()
     {
-        ChangeToScene(1);
+        ChangeToScene(0);
     }
 
     //Level Select
@@ -35,7 +35,7 @@ public class StartMenuController : MonoBehaviour {
         }
         else
         {
-            SceneManager.LoadScene(scene);
+            SceneManager.LoadScene(scene+1);
         }
     }
 }
