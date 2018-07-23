@@ -4,12 +4,29 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartMenuController : MonoBehaviour {
-    
+
+    public GameObject upgradeTab;
+    public GameObject levelsTab;
+
+    //Start Menu
 	public void StartPressed()
     {
         ChangeToScene(1);
     }
 
+    //Level Select
+    public void UpgradePressed()
+    {
+        upgradeTab.SetActive(true);
+        levelsTab.SetActive(false);
+    }
+    public void LevelsPressed()
+    {
+        upgradeTab.SetActive(false);
+        levelsTab.SetActive(true);
+    }
+
+    //Change Scene
     public void ChangeToScene(int scene)
     {
         if (scene == -1)
