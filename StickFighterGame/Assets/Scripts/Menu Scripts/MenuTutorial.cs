@@ -59,6 +59,10 @@ public class MenuTutorial : MonoBehaviour
     public void ClearProgress()
     {
         PlayerPrefsX.SetBool("tut_complete", false);
+        run_tut = false;
+        upgrade = false;
+        assault = false;
+        equipped = false;
         tut_complete = false;
     }
 }
