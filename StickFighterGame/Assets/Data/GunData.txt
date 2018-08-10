@@ -1,0 +1,9 @@
+Name Damage Reload FireRate ClipSize Auto Type (0 = projectile, 1 = hitscan) Accuracy Price
+Pistol 24 1.5 6.75 16 0 1 0.1 0
+AssaultRifle 31	2.2	5.5	30 1 1 0.05 50 
+SniperRifle 150 1.8	0.8	1 0 1 0 250
+PumpShotgun 25 3 0.7 5 0 1 0.175 300
+Minigun 19 4.5 12 1000 1 1 0.25 400
+LaserBeam 200 3 0 1000 1 1 0 600
+HealBeam 6 3 0 500 1 1 0 1000
+AutoShotgun 20 3 5 50 1 1 0.5 10000
