@@ -289,7 +289,7 @@ Prefab:
     - target: {fileID: 114739395866689112, guid: 8f8bac736f8e66e47890314df9461dc8,
         type: 2}
       propertyPath: spawns.Array.data[1].enemies
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114739395866689112, guid: 8f8bac736f8e66e47890314df9461dc8,
         type: 2}
@@ -325,12 +325,17 @@ Prefab:
     - target: {fileID: 114739395866689112, guid: 8f8bac736f8e66e47890314df9461dc8,
         type: 2}
       propertyPath: stats.newStats.damage
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114739395866689112, guid: 8f8bac736f8e66e47890314df9461dc8,
         type: 2}
       propertyPath: coinDrop
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114739395866689112, guid: 8f8bac736f8e66e47890314df9461dc8,
+        type: 2}
+      propertyPath: stats.spawnRate
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f8bac736f8e66e47890314df9461dc8, type: 2}

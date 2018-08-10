@@ -125,7 +125,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.tag == "HealthPack")
         {
-            health += 10;
+            health += 25;
             if (health > 100) { health = 100; }
             Destroy(collision.gameObject);
         }

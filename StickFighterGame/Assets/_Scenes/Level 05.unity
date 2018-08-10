@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3870,6 +3870,21 @@ Prefab:
       propertyPath: mortarlist.Array.data[3]
       value: 
       objectReference: {fileID: 1286596205}
+    - target: {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
+        type: 2}
+      propertyPath: doors.Array.data[0].toggle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
+        type: 2}
+      propertyPath: doors.Array.data[1].door
+      value: 
+      objectReference: {fileID: 132726612}
+    - target: {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
+        type: 2}
+      propertyPath: doors.Array.data[1].toggle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_IsPrefabAsset: 0
@@ -4614,11 +4629,11 @@ MonoBehaviour:
   healthChance: 75
   doors:
   - door: {fileID: 1129934707}
-    toggle: 0
+    toggle: 1
   - door: {fileID: 564367504}
-    toggle: 0
+    toggle: 1
   - door: {fileID: 1513030975}
-    toggle: 0
+    toggle: 1
   healthPack: {fileID: 1189727718010322, guid: 2a0e95a5ab778c34c9c4a832c296cfe9, type: 2}
   coin: {fileID: 1112092822672122, guid: 650ad2eb46fc34345ad1c1ba66c48ae5, type: 2}
   stats:
@@ -4627,11 +4642,6 @@ MonoBehaviour:
     fireRate: 2.5
   bullet: {fileID: 1813020456719048, guid: cccff806b39812049b859f24fff47cc3, type: 2}
   marker: {fileID: 1832286062401408, guid: 35e011cd3726bcf448db064f2fee7600, type: 2}
-  mortarlist:
-  - {fileID: 631450018}
-  - {fileID: 1478727918}
-  - {fileID: 1616934163}
-  - {fileID: 1286596205}
 --- !u!4 &1292412174 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4655288345915376, guid: 24f520ade8acf2241a788222d0747c74,
@@ -5441,6 +5451,8 @@ MonoBehaviour:
   healthChance: 75
   doors:
   - door: {fileID: 902315347}
+    toggle: 1
+  - door: {fileID: 524117870}
     toggle: 0
   healthPack: {fileID: 1189727718010322, guid: 2a0e95a5ab778c34c9c4a832c296cfe9, type: 2}
   coin: {fileID: 1112092822672122, guid: 650ad2eb46fc34345ad1c1ba66c48ae5, type: 2}
@@ -5450,11 +5462,6 @@ MonoBehaviour:
     fireRate: 2.5
   bullet: {fileID: 1813020456719048, guid: cccff806b39812049b859f24fff47cc3, type: 2}
   marker: {fileID: 1832286062401408, guid: 35e011cd3726bcf448db064f2fee7600, type: 2}
-  mortarlist:
-  - {fileID: 631450018}
-  - {fileID: 1478727918}
-  - {fileID: 1616934163}
-  - {fileID: 1286596205}
 --- !u!1001 &1487086591
 Prefab:
   m_ObjectHideFlags: 0
@@ -5759,8 +5766,8 @@ Prefab:
       propertyPath: m_Name
       value: Mortar1
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
-        type: 2}]
+    m_RemovedComponents:
+    - {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1532518396 stripped
@@ -6178,11 +6185,11 @@ MonoBehaviour:
   healthChance: 75
   doors:
   - door: {fileID: 1442127320}
-    toggle: 0
+    toggle: 1
   - door: {fileID: 579093046}
-    toggle: 0
+    toggle: 1
   - door: {fileID: 2139131645}
-    toggle: 0
+    toggle: 1
   healthPack: {fileID: 1189727718010322, guid: 2a0e95a5ab778c34c9c4a832c296cfe9, type: 2}
   coin: {fileID: 1112092822672122, guid: 650ad2eb46fc34345ad1c1ba66c48ae5, type: 2}
   stats:
@@ -6191,11 +6198,6 @@ MonoBehaviour:
     fireRate: 2.5
   bullet: {fileID: 1813020456719048, guid: cccff806b39812049b859f24fff47cc3, type: 2}
   marker: {fileID: 1832286062401408, guid: 35e011cd3726bcf448db064f2fee7600, type: 2}
-  mortarlist:
-  - {fileID: 631450018}
-  - {fileID: 1478727918}
-  - {fileID: 1616934163}
-  - {fileID: 1286596205}
 --- !u!1001 &1651582007
 Prefab:
   m_ObjectHideFlags: 0
@@ -6284,8 +6286,8 @@ Prefab:
       propertyPath: m_Name
       value: Mortar3
       objectReference: {fileID: 0}
-    m_RemovedComponents: [{fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
-        type: 2}]
+    m_RemovedComponents:
+    - {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1657228202
@@ -7284,8 +7286,8 @@ Prefab:
       propertyPath: doors.Array.data[2].door
       value: 
       objectReference: {fileID: 2139131645}
-    m_RemovedComponents: [{fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af,
-        type: 2}]
+    m_RemovedComponents:
+    - {fileID: 114317140362519610, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: d6cba46a07663f648af42b4ca6c200af, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1914470955
